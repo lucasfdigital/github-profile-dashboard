@@ -1,0 +1,7 @@
+requests==2.34.2
+beautifulsoup4==4.15.0
+# portrait-only (not needed by the daily workflow):
+pillow==12.3.0
+numpy==2.5.3
+opencv-python==5.0.0.93
+rembg==2.0.85

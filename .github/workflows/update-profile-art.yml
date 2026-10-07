@@ -1,0 +1,39 @@
+name: Update profile art
+
+"on":
+  schedule:
+    - cron: "17 */4 * * *" # every 4 hours
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+env:
+  # zero-config: the dashboard always renders for the repo owner.
+  # Override in dashboard.json -> github_username for local runs.
+  GITHUB_USERNAME: ${{ github.repository_owner }}
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
+      - run: python scripts/fetch_contributions.py
+      - run: python scripts/fetch_github_stats.py
+      - run: python scripts/render_profile_top.py
+      - run: THEME=light python scripts/render_profile_top.py
+      - run: python -c "import re, datetime; v = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d-%H%M'); p = 'README.md'; s = open(p).read(); s = re.sub(r'\./profile-top(-light)?\.svg(\?v=[\w-]+)?', lambda m: './profile-top'+(m.group(1) or '')+'.svg?v='+v, s); open(p, 'w').write(s); print('cache-bust', v)"
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile dashboard [skip ci]"
+          file_pattern: "data/contributions.json data/github_stats.json profile-top.svg profile-top-light.svg README.md"

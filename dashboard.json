@@ -1,0 +1,11 @@
+{
+  "github_username": null,
+  "exclude_repos": [],
+  "sections": {
+    "kpis": true,
+    "extras": true,
+    "chart": true,
+    "languages": true,
+    "heatmap": true
+  }
+}

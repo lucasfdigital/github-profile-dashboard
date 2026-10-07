@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# generated per user (fetched by the workflow, never committed)
+data/contributions.json
+data/github_stats.json
