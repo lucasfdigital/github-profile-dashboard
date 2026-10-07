@@ -15,9 +15,9 @@ Animated dashboard for your GitHub profile, BoardUI dark/light style: KPIs (cont
 
 ## Get started in 3 steps
 
-1. Click [**Use this template**](https://github.com/new?template_name=github-profile-dashboard&template_owner=lucasfdigital) and create a repository **named exactly as your username** (e.g. `your-user/your-user`) — its README renders on your profile
-2. Open the **Actions** tab of the created repo and wait for the first run (~2 min) — or trigger it manually under *Update profile art → Run workflow*
-3. Open `github.com/your-user` and done 🎉
+1. Click [**Use this template**](https://github.com/new?template_name=github-profile-dashboard&template_owner=lucasfdigital) and create a repository **named exactly as your username** (e.g. `your-user/your-user`)
+2. In the created repo, open `profile/README.md`, copy its contents into the root `README.md` (that one renders on your profile — the template root README is just docs)
+3. Open the **Actions** tab and wait for the first run (~2 min) — or trigger it manually under *Update profile art → Run workflow*. Then open `github.com/your-user` and done 🎉
 
 Nothing to configure: the workflow auto-detects the repo owner (`github.repository_owner`).
 
