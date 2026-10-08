@@ -1,48 +1,69 @@
 {
   "username": "lucasfdigital",
-  "fetched_at": "2026-10-08T13:58:23.199394Z",
-  "repo_count": 6,
+  "fetched_at": "2026-10-08T21:23:01.979795Z",
+  "repo_count": 7,
   "stars": 4,
-  "prs": 19,
+  "prs": 23,
   "languages": [
     {
-      "name": "JavaScript",
-      "bytes": 155873,
-      "pct": 31.8
+      "name": "TypeScript",
+      "bytes": 308849,
+      "pct": 38.6
     },
     {
       "name": "CSS",
-      "bytes": 114526,
-      "pct": 23.4
+      "bytes": 212293,
+      "pct": 26.5
     },
     {
-      "name": "TypeScript",
-      "bytes": 113736,
-      "pct": 23.2
+      "name": "JavaScript",
+      "bytes": 158213,
+      "pct": 19.8
     },
     {
       "name": "Python",
       "bytes": 84256,
-      "pct": 17.2
+      "pct": 10.5
     },
     {
       "name": "HTML",
-      "bytes": 18929,
-      "pct": 3.9
+      "bytes": 34112,
+      "pct": 4.3
     },
     {
       "name": "MDX",
       "bytes": 2119,
-      "pct": 0.4
+      "pct": 0.3
     }
   ],
   "repos": [
+    {
+      "repo": "lucasfdigital/github-profile-site",
+      "commits": 0,
+      "prs": 2,
+      "issues": 0,
+      "total": 2
+    },
     {
       "repo": "anomalyco/opencode",
       "commits": 0,
       "prs": 1,
       "issues": 1,
       "total": 2
+    },
+    {
+      "repo": "lucasfdigital/github-profile-dashboard",
+      "commits": 0,
+      "prs": 1,
+      "issues": 0,
+      "total": 1
+    },
+    {
+      "repo": "lucasfdigital/lucasfdigital",
+      "commits": 0,
+      "prs": 1,
+      "issues": 0,
+      "total": 1
     },
     {
       "repo": "lucasfdigital/PageClip",
