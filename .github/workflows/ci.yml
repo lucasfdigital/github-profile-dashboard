@@ -1,0 +1,38 @@
+name: Template CI
+
+"on":
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
+      - run: pip install -q pyyaml
+      # A2: workflow YAML must parse (a one-line lambda once broke all runs)
+      - run: python -c "import yaml, glob; [yaml.safe_load(open(f)) for f in glob.glob('.github/workflows/*.yml')]; print('YAML OK')"
+      # A3: live fetch smoke test (read-only) — fails early if GitHub changes markup
+      - run: GITHUB_USERNAME=octocat python scripts/fetch_contributions.py
+      - run: GITHUB_USERNAME=octocat python scripts/fetch_github_stats.py
+      # A1: render smoke — both themes, then every section off (must not crash)
+      - run: STATIC=1 python scripts/render_profile_top.py
+      - run: STATIC=1 THEME=light python scripts/render_profile_top.py
+      - run: |
+          python - <<'EOF'
+          import json
+          c = json.load(open('dashboard.json'))
+          c['sections'] = {k: False for k in c['sections']}
+          json.dump(c, open('dashboard.json', 'w'))
+          EOF
+      - run: STATIC=1 python scripts/render_profile_top.py
+      - run: git checkout -- dashboard.json && echo ALL GREEN

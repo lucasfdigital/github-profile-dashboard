@@ -375,7 +375,7 @@ def main() -> None:
         # bars
         bx0, bx1 = 56, W - 16
         by0, by1 = y_chart + 96, y_chart + H_CHART - 34
-        mx = max(mvals) if mvals else 1
+        mx = max(mvals) if mvals and max(mvals) > 0 else 1
         # y ticks
         for f in (1.0, 0.66, 0.33):
             v = mx * f
