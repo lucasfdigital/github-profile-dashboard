@@ -9,11 +9,26 @@
 
 # github-profile-dashboard 👋
 
-Animated dashboard for your GitHub profile, BoardUI dark/light style: KPIs (contributions, streak, best day, month, PRs, stars), monthly chart, top languages and contribution calendar — all with **real public data, no token, no third-party services**. A cron refreshes it every 4 hours.
+Animated dashboard for your GitHub profile, BoardUI dark/light style: KPIs (contributions, streak, best day, month, PRs, stars), monthly chart, top languages and contribution calendar — all with **real public data**.
 
 > 🇧🇷 Versão em português: [README.md](./README.md) (principal)
 
-## Get started in 3 steps
+## Easiest way (recommended)
+
+Go to **[github-profile-dash.vercel.app](https://github-profile-dash.vercel.app)**, connect GitHub and you're done: the site adds the dashboard to your profile README and it **refreshes itself every 4 hours**, with nothing running in your account. You can preview anyone's dashboard before connecting, and it has the newest design.
+
+No login? Paste this into your profile repo README (replace `YOUR-USER`):
+
+```html
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://github-profile-dash.vercel.app/api/painel/YOUR-USER">
+<img src="https://github-profile-dash.vercel.app/api/painel/YOUR-USER?tema=claro" width="860" />
+</picture>
+```
+
+## Rather run it in your own account? (this template, 3 steps)
+
+Here a GitHub Action in your own repo generates the dashboard. Heads up: GitHub's cron scheduler is best-effort and is sometimes late or skipped (see *Honest limits*).
 
 1. Click [**Use this template**](https://github.com/new?template_name=github-profile-dashboard&template_owner=lucasfdigital) and create a repository **named exactly as your username** (e.g. `your-user/your-user`)
 2. In the created repo, open `profile/README.md`, copy its contents into the root `README.md` (that one renders on your profile — the template root README is just docs)
