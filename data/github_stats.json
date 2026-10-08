@@ -1,0 +1,25 @@
+{
+  "username": "octocat",
+  "fetched_at": "2026-10-08T13:11:16.432807Z",
+  "repo_count": 6,
+  "stars": 21043,
+  "prs": 8,
+  "languages": [
+    {
+      "name": "CSS",
+      "bytes": 14950,
+      "pct": 77.3
+    },
+    {
+      "name": "HTML",
+      "bytes": 4338,
+      "pct": 22.4
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 48,
+      "pct": 0.2
+    }
+  ],
+  "repos": []
+}

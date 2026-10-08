@@ -2,6 +2,5 @@
 __pycache__/
 *.pyc
 .DS_Store
-# generated per user (fetched by the workflow, never committed)
-data/contributions.json
-data/github_stats.json
+# NOTE: data/*.json are intentionally NOT ignored — the workflow must
+# commit them (the auto-commit step fails on ignored paths).
