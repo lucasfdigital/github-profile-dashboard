@@ -32,7 +32,7 @@ jobs:
       - run: python scripts/fetch_github_stats.py
       - run: python scripts/render_profile_top.py
       - run: THEME=light python scripts/render_profile_top.py
-      - run: python -c "import re, datetime; v = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%d-%H%M'); p = 'README.md'; s = open(p).read(); s = re.sub(r'\./profile-top(-light)?\.svg(\?v=[\w-]+)?', lambda m: './profile-top'+(m.group(1) or '')+'.svg?v='+v, s); open(p, 'w').write(s); print('cache-bust', v)"
+      - run: python scripts/cache_bust.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile dashboard [skip ci]"

@@ -1,0 +1,6 @@
+# Portrait-only deps (prepping photos locally).
+# NOT installed by the daily workflow — keep unpinned, update at will.
+# Usage: pip install -r scripts/requirements-portrait.txt
+numpy
+opencv-python
+rembg[cpu]

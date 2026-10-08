@@ -1,7 +1,5 @@
-requests==2.34.2
-beautifulsoup4==4.15.0
-# portrait-only (not needed by the daily workflow):
-pillow==12.3.0
-numpy==2.5.3
-opencv-python==5.0.0.93
-rembg==2.0.85
+# Runtime deps (CI workflow installs ONLY this file: keep it lean and
+# pinned to versions with Python 3.11 wheels, matching setup-python 3.11)
+requests==2.32.3
+beautifulsoup4==4.12.3
+pillow==11.3.0
