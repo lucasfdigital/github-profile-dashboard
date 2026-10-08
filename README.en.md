@@ -45,6 +45,7 @@ Nothing to configure: the workflow auto-detects the repo owner (`github.reposito
 - No token = public API only: private and org repos are **excluded** from languages (the graph still counts your contributions there)
 - Forks are ignored on purpose (otherwise other people's code eats your chart)
 - Anonymous rate limit is 60 req/hour; each run uses ~40 — and if it's ever hit, scripts keep the previous data instead of breaking
+- GitHub's cron scheduler is best-effort: runs can be late or skipped entirely. If the dashboard looks frozen, open *Actions → Update profile art → Run workflow* (every push to `main` refreshes it too)
 
 ## License
 

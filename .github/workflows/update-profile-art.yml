@@ -23,7 +23,12 @@ jobs:
   heatmap:
     runs-on: ubuntu-latest
     steps:
+      # branch tip, not the triggering SHA: a run queued behind another
+      # (concurrency) would otherwise start from a stale commit and the
+      # auto-commit push gets rejected as non-fast-forward
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"

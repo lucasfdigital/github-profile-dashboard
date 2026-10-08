@@ -45,6 +45,7 @@ Nada pra configurar: o workflow detecta o dono do repo sozinho (`github.reposito
 - Sem token = API pública: repos privados e de organização **não** entram nas linguagens (as contribuições do gráfico, essas o GitHub conta)
 - Forks são ignorados de propósito (se não, código alheio engole seu gráfico)
 - Rate limit anônimo é 60 req/hora; cada execução usa ~40 — e se estourar, o script mantém os dados anteriores em vez de quebrar
+- O agendamento (cron) do GitHub não é garantido: pode atrasar ou nem rodar. Se o dashboard parar no tempo, abra *Actions → Update profile art → Run workflow* (todo push na `main` também atualiza)
 
 ## Licença
 
