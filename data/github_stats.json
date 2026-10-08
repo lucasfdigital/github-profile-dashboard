@@ -1,25 +1,55 @@
 {
-  "username": "octocat",
-  "fetched_at": "2026-10-08T13:11:16.432807Z",
+  "username": "lucasfdigital",
+  "fetched_at": "2026-10-08T13:58:23.199394Z",
   "repo_count": 6,
-  "stars": 21043,
-  "prs": 8,
+  "stars": 4,
+  "prs": 19,
   "languages": [
     {
+      "name": "JavaScript",
+      "bytes": 155873,
+      "pct": 31.8
+    },
+    {
       "name": "CSS",
-      "bytes": 14950,
-      "pct": 77.3
+      "bytes": 114526,
+      "pct": 23.4
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 113736,
+      "pct": 23.2
+    },
+    {
+      "name": "Python",
+      "bytes": 84256,
+      "pct": 17.2
     },
     {
       "name": "HTML",
-      "bytes": 4338,
-      "pct": 22.4
+      "bytes": 18929,
+      "pct": 3.9
     },
     {
-      "name": "JavaScript",
-      "bytes": 48,
-      "pct": 0.2
+      "name": "MDX",
+      "bytes": 2119,
+      "pct": 0.4
     }
   ],
-  "repos": []
+  "repos": [
+    {
+      "repo": "anomalyco/opencode",
+      "commits": 0,
+      "prs": 1,
+      "issues": 1,
+      "total": 2
+    },
+    {
+      "repo": "lucasfdigital/PageClip",
+      "commits": 0,
+      "prs": 1,
+      "issues": 0,
+      "total": 1
+    }
+  ]
 }
