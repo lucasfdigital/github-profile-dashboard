@@ -1,34 +1,34 @@
 {
   "username": "lucasfdigital",
-  "fetched_at": "2026-10-08T22:41:31.392208Z",
+  "fetched_at": "2026-10-09T15:21:16.584974Z",
   "repo_count": 7,
   "stars": 4,
   "prs": 26,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 350292,
-      "pct": 44.3
+      "bytes": 367748,
+      "pct": 45.5
     },
     {
       "name": "CSS",
       "bytes": 212293,
-      "pct": 26.8
+      "pct": 26.3
     },
     {
       "name": "JavaScript",
       "bytes": 158213,
-      "pct": 20.0
+      "pct": 19.6
     },
     {
       "name": "Python",
       "bytes": 34171,
-      "pct": 4.3
+      "pct": 4.2
     },
     {
       "name": "HTML",
       "bytes": 34112,
-      "pct": 4.3
+      "pct": 4.2
     },
     {
       "name": "MDX",
@@ -40,9 +40,9 @@
     {
       "repo": "lucasfdigital/github-profile-site",
       "commits": 0,
-      "prs": 7,
+      "prs": 8,
       "issues": 0,
-      "total": 7
+      "total": 8
     },
     {
       "repo": "lucasfdigital/github-profile-dashboard",
