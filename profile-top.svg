@@ -11,12 +11,12 @@
 @media (prefers-reduced-motion:reduce){.cell,.row,.meta{animation:none;opacity:1;}}
 </style>
 <rect x="0" y="16" width="208" height="172" rx="16" fill="#131318" stroke="rgba(255,255,255,0.08)"/>
-<g class="row" style="animation-delay:0.05s"><rect x="16" y="30" width="32" height="32" rx="8" fill="url(#temerald)"/><g transform="translate(32,46)"><circle cx="0" cy="0" r="6" fill="#FFFFFF"/></g><text x="16" y="82" fill="#A1A1AA" font-size="12">Contribuições</text><text x="16" y="122" fill="#FAFAFA" font-size="40" font-weight="600">3.295</text></g>
+<g class="row" style="animation-delay:0.05s"><rect x="16" y="30" width="32" height="32" rx="8" fill="url(#temerald)"/><g transform="translate(32,46)"><circle cx="0" cy="0" r="6" fill="#FFFFFF"/></g><text x="16" y="82" fill="#A1A1AA" font-size="12">Contribuições</text><text x="16" y="122" fill="#FAFAFA" font-size="40" font-weight="600">3.296</text></g>
 <rect x="8" y="136" width="192" height="40" rx="10" fill="#1A1A1F"/>
-<g class="meta" style="animation-delay:0.20s"><rect x="86" y="144" width="108" height="24" rx="12" fill="#1A2E05" fill-opacity="0.6"/><circle cx="98" cy="156" r="8" fill="#84CC16"/><rect x="96.1" y="154.5" width="3.8" height="5.5" rx="1" fill="#131318"/><polygon points="93.0,155.5 98.0,150.0 103.0,155.5" fill="#131318"/><text x="110" y="161" fill="#84CC16" font-size="14" font-weight="500">+2141,5%</text></g>
+<g class="meta" style="animation-delay:0.20s"><rect x="86" y="144" width="108" height="24" rx="12" fill="#1A2E05" fill-opacity="0.6"/><circle cx="98" cy="156" r="8" fill="#84CC16"/><rect x="96.1" y="154.5" width="3.8" height="5.5" rx="1" fill="#131318"/><polygon points="93.0,155.5 98.0,150.0 103.0,155.5" fill="#131318"/><text x="110" y="161" fill="#84CC16" font-size="14" font-weight="500">+2142,2%</text></g>
 <text x="18" y="162" fill="#71717A" font-size="11">147 em 2025</text>
 <rect x="224" y="16" width="208" height="172" rx="16" fill="#131318" stroke="rgba(255,255,255,0.08)"/>
-<g class="row" style="animation-delay:0.12s"><rect x="240" y="30" width="32" height="32" rx="8" fill="url(#torange)"/><g transform="translate(256,46)"><polygon points="0,-7 7,0 0,7 -7,0" fill="#FFFFFF"/></g><text x="240" y="82" fill="#A1A1AA" font-size="12">Este mês</text><text x="240" y="122" fill="#FAFAFA" font-size="40" font-weight="600">311</text></g>
+<g class="row" style="animation-delay:0.12s"><rect x="240" y="30" width="32" height="32" rx="8" fill="url(#torange)"/><g transform="translate(256,46)"><polygon points="0,-7 7,0 0,7 -7,0" fill="#FFFFFF"/></g><text x="240" y="82" fill="#A1A1AA" font-size="12">Este mês</text><text x="240" y="122" fill="#FAFAFA" font-size="40" font-weight="600">312</text></g>
 <rect x="232" y="136" width="192" height="40" rx="10" fill="#1A1A1F"/>
 <g class="meta" style="animation-delay:0.27s"><rect x="334" y="144" width="84" height="24" rx="12" fill="#4C0519" fill-opacity="0.6"/><circle cx="346" cy="156" r="8" fill="#F43F5E"/><rect x="344.1" y="152.0" width="3.8" height="5.5" rx="1" fill="#131318"/><polygon points="341.0,156.5 346.0,162.0 351.0,156.5" fill="#131318"/><text x="358" y="161" fill="#F43F5E" font-size="14" font-weight="500">-69,4%</text></g>
 <text x="242" y="162" fill="#71717A" font-size="11">1.018 em Set</text>
@@ -42,9 +42,9 @@
 <text x="466" y="350" fill="#71717A" font-size="11">Nos repositórios</text>
 <rect x="0" y="392" width="880" height="300" rx="16" fill="#131318" stroke="rgba(255,255,255,0.08)"/>
 <text x="20" y="420" fill="#A1A1AA" font-size="12">Contribuições</text>
-<text x="20" y="450" fill="#FAFAFA" font-size="24" font-weight="600">3.295</text>
+<text x="20" y="450" fill="#FAFAFA" font-size="24" font-weight="600">3.296</text>
 <g class="meta"><rect x="96" y="430" width="50" height="24" rx="6" fill="#232327"/><text x="102" y="447" fill="#A1A1AA" font-size="14" font-weight="500">2026</text></g>
-<text x="20" y="470" fill="#71717A" font-size="12">311 em Out 2026</text>
+<text x="20" y="470" fill="#71717A" font-size="12">312 em Out 2026</text>
 <text x="860" y="426" fill="#A1A1AA" font-size="12" text-anchor="end">Este período</text><circle cx="774" cy="422" r="4" fill="#10B981"/>
 <text x="48" y="492" fill="#71717A" font-size="11" text-anchor="end">1,0k</text>
 <text x="48" y="550" fill="#71717A" font-size="11" text-anchor="end">672</text>
@@ -67,7 +67,7 @@
 <text x="561" y="680" fill="#71717A" font-size="12" text-anchor="middle">Ago</text>
 <rect class="cell" style="animation-delay:0.98s" x="608" y="488" width="41" height="170" rx="4" fill="#10B981"><title>2026-09: 1018</title></rect>
 <text x="628" y="680" fill="#71717A" font-size="12" text-anchor="middle">Set</text>
-<rect class="cell" style="animation-delay:1.04s" x="675" y="606" width="41" height="52" rx="4" fill="#10B981"><title>2026-10: 311</title></rect>
+<rect class="cell" style="animation-delay:1.04s" x="675" y="606" width="41" height="52" rx="4" fill="#10B981"><title>2026-10: 312</title></rect>
 <text x="696" y="680" fill="#71717A" font-size="12" text-anchor="middle">Out</text>
 <rect class="cell" style="animation-delay:1.10s" x="742" y="654" width="41" height="4" rx="4" fill="#10B981"><title>2026-11: 0</title></rect>
 <text x="763" y="680" fill="#71717A" font-size="12" text-anchor="middle">Nov</text>
@@ -576,7 +576,7 @@
 <rect x="844" y="1039" width="12" height="12" rx="2.5" fill="#0E4429"><title>16 em 2026-10-07</title></rect>
 <rect x="844" y="1054" width="12" height="12" rx="2.5" fill="#69F0A0"><title>70 em 2026-10-08</title></rect>
 <rect x="844" y="1069" width="12" height="12" rx="2.5" fill="#0E4429"><title>2 em 2026-10-09</title></rect>
-<rect x="844" y="1084" width="12" height="12" rx="2.5" fill="#0E4429"><title>1 em 2026-10-10</title></rect>
+<rect x="844" y="1084" width="12" height="12" rx="2.5" fill="#0E4429"><title>2 em 2026-10-10</title></rect>
 </g>
 <text class="meta" style="animation-delay:1.8s" x="20" y="1134" fill="#71717A" font-size="11">streak atual 6 dias · melhor dia 2026-09-08 (91)</text>
 <text x="644" y="1134" fill="#71717A" font-size="10">Less</text>
